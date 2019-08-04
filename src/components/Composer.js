@@ -8,7 +8,7 @@ import IconEmojiPicker from '@material-ui/icons/TagFaces';
 import IconAttachFile from '@material-ui/icons/AttachFile';
 import IconSend from '@material-ui/icons/SendOutlined';
 
-export default class Input2 extends Component {
+export default class Composer extends Component {
 
     constructor(props) {
         super(props);
