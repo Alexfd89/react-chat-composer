@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './styles';
-// import UserInput from './components/UserInput';
-// import Input from './components/Input/Input';
-import Input2 from './components/Input2';
+import Composer from './components/Composer';
 
 class App extends Component {
   render() {
@@ -11,10 +9,10 @@ class App extends Component {
         <div style={{ flexGrow: 1 }}>
 
         </div>
-        <Input2 />
+        <Composer />
       </div>
     )
   }
 }
 
-export default App
+export default App;
