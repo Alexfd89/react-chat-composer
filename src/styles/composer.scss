@@ -1,0 +1,25 @@
+.input-container {
+  height: 50px;
+  border-top: 1px solid lightgray;
+  padding: 5px 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex-grow: 1;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.input-actions {
+  display: flex;
+  align-items: center;
+}
+
+.input-attach-file-icon {
+  transform: rotate(45deg);
+}
